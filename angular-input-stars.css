@@ -1,23 +1,16 @@
 /* <input-star></input-star> directive */
 .angular-input-stars {
-	
 	display: inline-block;
 	padding: 0;
-	margin-left: -5px;
+	margin:0;
 	list-style: none;
-
 }
 
-.angular-input-stars > li {
-		
-	font-size: 17px;
-
+.angular-input-stars > li {	
+	font-size: 15px;
 	display: inline-block;
-	padding-right: 5px;
-	padding-left: 5px;
-	
+	pading:0;
 	cursor: pointer;
-
 }
 
 .angular-input-stars > li i.readonly {
